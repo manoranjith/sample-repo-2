@@ -13,9 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Use API to calculate and update total estimates in each column
+      - name: actions/checkout@v1
         id: run
-        uses: ./mathiasjakobsen/github-estimates-action
+        uses: mathiasjakobsen/github-estimates-action
         with:
           owner: 'manoranjith'
           repo: 'sample-repo-2'
