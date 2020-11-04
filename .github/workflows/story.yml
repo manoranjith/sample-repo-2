@@ -15,7 +15,7 @@ jobs:
 
       - name: actions/checkout@v1
         id: run
-        uses: mathiasjakobsen/github-estimates-action
+        uses: mathiasjakobsen/github-estimates-action@v0.1.0
         with:
           owner: 'manoranjith'
           repo: 'sample-repo-2'
