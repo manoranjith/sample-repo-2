@@ -15,8 +15,8 @@ jobs:
 
       - name: Use API to calculate and update total estimates in each column
         id: run
-        uses: ./
+        uses: ./mathiasjakobsen/'github-estimates-action
         with:
-          owner: 'mathiasjakobsen'
-          repo: 'github-estimates-action'
+          owner: 'manoranjith'
+          repo: 'sample-repo-2'
           token: ${{ secrets.GITHUB_TOKEN }}
